@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <style>
+        .container{
+            display: flex;
+            margin: 0 auto;
+            width: 75%;
+            flex-direction: column;
+            min-width: 840px;
+        }
+
+        .conatiner_row{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .flex.grow{
+            flex-grow: 1;
+        }
+
+        img{
+            margin: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__row">
+            <img src="img/1.png" alt="">
+            <img src="img/2.png" alt="">
+            <img src="img/3.png" alt="">
+            <img src="img/4.png" alt="">
+        </div>
+
+        <div class="container__row flex-grow ">
+            <img width="100%" src="img/5.png" alt="">
+        </div>
+
+        <div class="container__row">
+            <img src="img/6.png" alt="">
+            <img src="img/7.png" alt="">
+            <img src="img/8.png" alt="">
+            <img src="img/9.png" alt="">
+        </div>
+
+    </div>
+    
+</body>
+</html>

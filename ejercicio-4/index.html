@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <style>
+        .container{
+            background-color:royalblue;
+            display: flex;
+            flex-direction: column;
+            margin: 50px auto;
+        }
+
+        .container__box{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+
+        }
+
+        .item{
+            background-color:deeppink;
+            color: white;
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 0;
+            font-family: monospace;
+            font-size: 2rem;
+            text-align: center;
+            padding: 10px 20px;
+            margin: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container__box">
+            <div class="item">#instaday</div>
+            <div class="item">#gooday</div>
+            <div class="item">#beautyplace</div>
+        </div>
+
+        <div class="container__box">
+                <div class="item">#friends</div>
+                <div class="item">#weekend</div>
+                <div class="item">#sun</div>
+            </div>
+    </div>
+</body>
+</html>
